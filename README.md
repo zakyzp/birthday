@@ -1,6 +1,6 @@
-# Game Kartu Ulang Tahun Bi Welly 🌸
+# Game Kartu Ulang Tahun Interaktif 🌸
 
-Game mencocokkan kartu (Memory Match) berbasis web satu halaman (*single-page web application*) yang interaktif, elegan, dan penuh kejutan. Dibuat khusus sebagai kado kartu ucapan ulang tahun digital untuk **Bi Welly** dari keponakannya, **Zaky**.
+Game mencocokkan kartu (Memory Match) berbasis web satu halaman (*single-page web application*) yang interaktif, elegan, dan penuh kejutan. Dibuat khusus sebagai kado ucapan ulang tahun digital.
 
 Halaman ini sangat responsif (*mobile-friendly*) dan dirancang dengan estetika pastel yang hangat, serta dilengkapi alur interaktif mulai dari permainan kartu, animasi pembukaan kado, hingga ucapan selamat ulang tahun yang terintegrasi dengan WhatsApp.
 
@@ -78,10 +78,10 @@ Apabila Anda ingin menyesuaikan nomor telepon tujuan atau pesan otomatisnya, And
 1. Buka berkas `index.html` dengan teks editor pilihan Anda (VS Code, Notepad, dll.).
 2. Cari elemen tautan dengan `id="btn-whatsapp"` (sekitar baris 825):
    ```html
-   <a href="https://api.whatsapp.com/send?phone=6282117943618&text=Terima%20kasih%20banyak%20Zaky%20sayang!%20Bi%20Welly%20kirim%20pelukan%20hangat%20kembali%20%E2%9D%A4%EF%B8%8F" 
-      target="_blank" 
-      class="btn-whatsapp" 
-      id="btn-whatsapp">
+    <a href="https://api.whatsapp.com/send?phone=6282117943618&text=Terima%20kasih%20banyak%20atas%20ucapannya!%20%E2%9D%A4%EF%B8%8F" 
+       target="_blank" 
+       class="btn-whatsapp" 
+       id="btn-whatsapp">
    ```
 3. Ganti nilai parameter `phone=6282117943618` dengan nomor WhatsApp Anda dalam format kode negara tanpa spasi/tanda tambah (contoh format Indonesia: `628xxxxxxxxxx`).
 4. Ganti nilai parameter `text=...` dengan teks balasan otomatis yang Anda inginkan (gunakan format *URL Encode* untuk spasi atau karakter khusus jika diperlukan).
